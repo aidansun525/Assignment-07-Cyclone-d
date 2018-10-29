@@ -16,7 +16,7 @@ public class Main {
         double d12=calcD(36,74,39,74);
 
         double totalDistance=d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9 + d10 + d11 + d12;
-        System.out.printf("Total Distance is %,.1f km.",totalDistance);
+        System.out.printf("\nTotal Distance is %,.1f km.\n",totalDistance);
     }
 
     public static double calcD(double x1, double y1, double x2, double y2)
