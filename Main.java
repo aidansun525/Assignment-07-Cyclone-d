@@ -1,4 +1,5 @@
-public class Main {
+public class Main 
+{
 
     public static void main(String[] args)
     {
@@ -21,13 +22,14 @@ public class Main {
 
     public static double calcD(double x1, double y1, double x2, double y2)
     {
-        double a = Math.pow(Math.sin((x1-x2)/2),2)+ Math.cos(x1)* Math.cos(x2)* Math.pow(Math.sin((y1-y2)/2),2);
+        double lat1=Math.toRadians(x1);
+        double lat2=Math.toRadians(x2);
+        double longt1=Math.toRadians(y1);
+        double longt2=Math.toRadians(y2);
+        double a = Math.pow(Math.sin((lat1-lat2)/2),2)+ Math.cos(lat1)* Math.cos(lat2)* Math.pow(Math.sin((longt1-longt2)/2),2);
         double c = 2* Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
-        double r = 6371;
-        double d = r* c;
+        double d = 6371* c;
         return d;
     }
-
-
 
 }
