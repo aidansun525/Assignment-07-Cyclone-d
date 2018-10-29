@@ -1,5 +1,5 @@
-"C:\Program Files\Java\jdk-10.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=59470:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Xufeng\IdeaProjects\Del-me\out\production\Del-me Main
+"C:\Program Files\Java\jdk-10.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=3298:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath D:\untitled1\out\production\untitled1 Main
 
-Total Distance is 127,786.1 km.
+Total Distance is 7,292.2 km.
 
 Process finished with exit code 0
